@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Quantico:wght@700&family=Sen:wght@700&display=swap');
+    body{
+        background-color: #A1BEC2;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 10%;
+    }
+    h1{
+        font-family: Sen;
+        font-size: 5vw;
+        background-color: rgb(17, 35, 50);
+        width: auto;
+        color: #A1BEC2;
+        padding: 5px 20px;
+        letter-spacing: 4px;
+        border-radius: 6px;
+    }
+    h4{
+        font-family: Sen;
+        font-size: 08vw;
+        width: auto;
+        position: absolute;
+        top: 10%;
+        text-transform: uppercase;
+        color: #ffffff;
+        text-shadow: 0px 9px 1.8vw rgba(0, 0, 0, 0.35);
+        letter-spacing: 4px;
+        border-radius: 6px;
+    }
+    links{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+        gap: 5%;
+        justify-content: center;
+    }
+    a{
+        
+        padding-top: 05%;
+    }
+    foo{
+        position: absolute;
+        bottom: 1%;
+        font-family: sen;
+        text-transform: uppercase;
+        color: #ffffff; 
+        letter-spacing: 4px;
+        font-size: small;
+        text-align: center;
+    }
+@media screen and (max-width:400px) {
+    links{
+        top: 30%;
+    }
+}
+@media screen and (min-width:400px) {
+    h1{
+        font-size: 5vh;
+    }
+}
+</style>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>YASH</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <H1>Team YASH</H1>
+    <h4>Our Projects</h4>
+    <links>
+        <a href="https://chatxrt.herokuapp.com">
+            <img src="assets/links (1).svg" height="100px" width="auto">
+        </a>
+        <a href="https://quotesf5.herokuapp.com">
+            <img src="assets/links (2).svg" height="100px" width="auto">
+        </a>
+        <a href="https://decxellence.herokuapp.com">
+            <img src="assets/links (3).svg" height="100px" width="auto">
+        </a>
+    </links>
+    <foo>Copyrights 2022 <a style="color:black; font-weight:600; text-decoration: none;" href="https://github.com/teamyash1923">@teamyash</a></foo>
+</body>
+<script>
+    function externalLinks() { for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) { var b = c[a]; b.getAttribute("href") && b.hostname !== location.hostname && (b.target = "_blank") } } ; externalLinks();
+</script>
+</html>
